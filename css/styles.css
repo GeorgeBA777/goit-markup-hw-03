@@ -44,7 +44,7 @@ button {
 }
 
 .container {
-    width: 1158px;
+    width: 1128px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -55,6 +55,7 @@ button {
 }
 
 .header-container {
+    width: 1158px;
     display: flex;
     align-items: center;
     margin: 0 auto;
