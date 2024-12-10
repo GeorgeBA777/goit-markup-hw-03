@@ -1,4 +1,5 @@
-/* Base Setting */
+/* #region Base Setting */
+        /* BASE SETTING */
 body {
     font-family: "Roboto", sans-serif;
     color: rgb(67, 68, 85);
@@ -48,8 +49,10 @@ button {
     padding: 0 15px;
     margin: 0 auto;
 }
-
-/* Header */
+.visually-hidden {}
+/* #endregion */
+/* #region HEADER*/
+              /* Header */
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -62,7 +65,7 @@ button {
 }
 
 .header-nav {
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
@@ -124,11 +127,13 @@ button {
 .address-link {
     color: #434455;
 }
+
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
 }
-/* Hero */
+/* #endregion */
+/* #region SECTION HERO */
 .hero {
     background: #2e2f42;
     padding: 188px 0;
@@ -170,28 +175,22 @@ button {
 .hero-btn:focus {
     background-color: #404bbf;
 }
+/* #endregion */
+/* #region SECTION Benefits */
+.benefits {}
 
-/* Benefits */
-.benefits-subtitle,
-.benefits-text {
-    color: #2e2f42;
-}
+.benefits-container {}
 
-.benefits-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
+.benefits-list {}
 
-.benefits-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+.benefits-item {}
 
-/* Team */
+.benefits-subtitle {}
+
+.benefits-text {}
+
+/* #endregion */
+/* #region SECTION Team */
 .team {
     background-color: #f4f4fd;
 }
@@ -248,8 +247,8 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-/* Footer */
+/* #endregion */
+/* #region FOOTER */
 .footer {
     background-color: #2e2f42;
 }
@@ -280,3 +279,4 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+/* #endregion */
