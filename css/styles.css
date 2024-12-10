@@ -51,7 +51,6 @@ button {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    border-top: none;
 }
 .visually-hidden {
     width: 1px;
@@ -305,12 +304,11 @@ button {
     color: #434455;
 }
 /* #endregion */
-/* #region SECTION4 POORTFOLIO */
+/* #region SECTION4 PORTFOLIO */
 .portfolio {}
 
-.portfolio-container {
- 
-}
+.portfolio-container {}
+
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11111;
@@ -334,6 +332,7 @@ button {
 .container-portfolio-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
