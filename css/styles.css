@@ -148,7 +148,7 @@ button {
     color: #404bbf;
 }
 /* #endregion */
-/* #region SECTION HERO */
+/* #region SECTION1 HERO */
 .hero {
     background: #2e2f42;
     padding: 188px 0;
@@ -191,7 +191,7 @@ button {
     background-color: #404bbf;
 }
 /* #endregion */
-/* #region SECTION Benefits */
+/* #region SECTION2 BENEFITS */
 .benefits {}
 
 .benefits-container {
@@ -227,7 +227,7 @@ button {
 }
 
 /* #endregion */
-/* #region SECTION Team */
+/* #region SECTION3 TEAM */
 .team {
     background-color: #f4f4fd;
 }
@@ -249,6 +249,7 @@ button {
 .team-item{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-list {
@@ -303,10 +304,11 @@ button {
     color: #434455;
 }
 /* #endregion */
-/* #region SECTION Portfolio */
+/* #region SECTION4 POORTFOLIO */
 .portfolio {}
 
 .portfolio-container {
+    border-top: none;
 }
 .portfolio-title {
     font-size: 36px;
